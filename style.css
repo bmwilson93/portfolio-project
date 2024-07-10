@@ -154,6 +154,13 @@ header .header-text .scroll::before{
 /* END Header Styles */
 
 
+#projects h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
 /* Recent Projects Styles */
 section {
   padding: 150px 0;
@@ -178,7 +185,6 @@ section {
   /* overflow: hidden; */
   /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); */
   transition: all .2s ease;
-  flex: 1;
 }
 
 .project-card:hover {
@@ -236,15 +242,33 @@ img {
     margin: 0 auto;
     
   }
-
+  
   .projects-details p {
     width: 80%;
   }
-
+  
   .extras {
     text-align: center;
   }
+  
+}
 
+
+
+#projects .projects-container {
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  gap: 100px;
+}
+
+#projects .projects-container .project-card img {
+  max-width: 800px;
+}
+
+#projects a p {
+  margin: 50px auto;
+  text-align: center;
 }
 
 
